@@ -1,0 +1,21 @@
+{
+  "mechanism": "relative-layer-geometry-v1",
+  "feature_count": 17,
+  "candidate_count": 1,
+  "training_count": 82,
+  "tuning_count": 27,
+  "tuning_previously_exposed": true,
+  "final_count": 28,
+  "final_status": "unscored",
+  "final_predictions_generated": false,
+  "tuning_accuracy": 0.5925925925925926,
+  "tuning_balanced_accuracy": 0.6785714285714286,
+  "majority_accuracy": 0.7407407407407407,
+  "delta_vs_majority": -0.14814814814814814,
+  "gate_passed": false,
+  "elapsed_seconds": 0.10862474999157712,
+  "cost_usd": 0,
+  "model_downloads": 0,
+  "platform_submissions": 0,
+  "interpretation": "Development falsifier only; no private leaderboard or cross-model generalization claim."
+}

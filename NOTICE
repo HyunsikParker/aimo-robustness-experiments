@@ -1,0 +1,13 @@
+AIMO robustness experiments
+Copyright 2026 Hyunsik Park
+
+The Apache-2.0 license covers the original research scripts, numeric forest implementation,
+release tools, and documentation in this repository. Frozen result records are retained
+as evidence, not as a claim that an experimental method passed its gate.
+
+The organizer's getting-started runtime and serialized model are not redistributed.
+Their pinned source is https://github.com/aimo-interp/getting-started/tree/de794053debe75a711400696e66b60937cebbb1b .
+The legacy public inputs are from https://github.com/aimo-interp/baselines/tree/7e8839966750059b6b1d247a12ab56552c79b342
+(Apache-2.0). Current public inputs are fetched from aimo-interp/train-main-v2 at revision
+23791d9b120132087877b0459f953d5959fc8455. Input data and tokenizer files are downloaded
+separately and retain their upstream terms. No upstream license is granted here.

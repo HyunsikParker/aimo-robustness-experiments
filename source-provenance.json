@@ -1,0 +1,254 @@
+{
+  "version": 1,
+  "files": [
+    {
+      "path": "experiments/representation-extraction-kaggle-v1/aimo-representation-extraction.py",
+      "source_sha256": "8eb316a1c514f1279caa124659d0462fc6c1ae5d3d79e2ea86884472240475c5",
+      "changes": [
+        "Add environment-based output path; extraction protocol unchanged.",
+        "Replace Kaggle-only output/scratch paths with relative defaults."
+      ]
+    },
+    {
+      "path": "experiments/representation-extraction-audit/validate_output.py",
+      "source_sha256": "394cae0919a2ce5f50849ffaa6cc76d25e1cd56ee4cbf5fc0019494d54344c0b",
+      "changes": []
+    },
+    {
+      "path": "experiments/representation-extraction-audit/test_validate_output.py",
+      "source_sha256": "f1f959345f1021a4a571d65ff3e3a77ffb95ab2f204322af064872a5803faf08",
+      "changes": []
+    },
+    {
+      "path": "experiments/representation-probe-falsifier-v1/development_screen.py",
+      "source_sha256": "1e186e27e51629db19a4ffdf3eede5f8f6ae3cd04e30e3936caaf05c45bc1834",
+      "changes": []
+    },
+    {
+      "path": "experiments/representation-probe-falsifier-v1/development_ensembles.py",
+      "source_sha256": "3e4051a645788eeabd4ee8b4a0257e8f6a038f1d10919263fa594987c3245193",
+      "changes": []
+    },
+    {
+      "path": "experiments/representation-probe-falsifier-v1/tuning_gate.py",
+      "source_sha256": "b0e31eb5dbd5a377fc1cb1d1c70528ecca0af43a26a3650cd749d1694bc5c886",
+      "changes": []
+    },
+    {
+      "path": "experiments/representation-probe-falsifier-v1/development_results.json",
+      "source_sha256": "dc26c91d51430d5701ac2087154b463bbfd317f288c8451cca837a9b365d6730",
+      "changes": []
+    },
+    {
+      "path": "experiments/representation-probe-falsifier-v1/development_ensemble_results.json",
+      "source_sha256": "46dee4570bf870198d52959bf960d03c03297bf2ac18b504f797fd051a4c005c",
+      "changes": []
+    },
+    {
+      "path": "experiments/representation-probe-falsifier-v1/tuning_results.json",
+      "source_sha256": "9dde3932f9776325aa08d90fd1c899b8b524cbebd43ac93ecaba43a6b5d5d53a",
+      "changes": []
+    },
+    {
+      "path": "experiments/layer-geometry-v1/experiment.py",
+      "source_sha256": "344335cb99cb49c96ce9c3450e70cbd1101f30c1de65a2ca70353739783edd99",
+      "changes": []
+    },
+    {
+      "path": "experiments/layer-geometry-v1/result.json",
+      "source_sha256": "2df5158af6d42c81128b2cc93f26ce53511c9c848fc46a9e344b155de7bb6825",
+      "changes": []
+    },
+    {
+      "path": "experiments/intervention-jsd-v1/extract.py",
+      "source_sha256": "401dd48d2a836cc3917004c48ac950814fe4395592857f37c8ee2ceaef952c61",
+      "changes": []
+    },
+    {
+      "path": "experiments/intervention-jsd-v1/metrics.py",
+      "source_sha256": "8c5823529fa4b42f4e187f89b1369e08a03c3d43035ffd4f357be6833ae06ebf",
+      "changes": []
+    },
+    {
+      "path": "experiments/intervention-jsd-v1/run-config.json",
+      "source_sha256": "cb036128342fb86172358da2de724e6c6aa08c7b698d8238912bbd03bbfeeab9",
+      "changes": []
+    },
+    {
+      "path": "experiments/intervention-jsd-native-v1/extract.py",
+      "source_sha256": "b68b9c0d01ffb62fb558621daaafd94b8a8444655a11c62f02b108839903f815",
+      "changes": []
+    },
+    {
+      "path": "experiments/intervention-jsd-native-v1/fit.py",
+      "source_sha256": "00c858b2233690adb11160e7091d05c2284b1393a8d04b25ce55b9263ae113a2",
+      "changes": []
+    },
+    {
+      "path": "experiments/intervention-jsd-native-v1/metrics.py",
+      "source_sha256": "8c5823529fa4b42f4e187f89b1369e08a03c3d43035ffd4f357be6833ae06ebf",
+      "changes": []
+    },
+    {
+      "path": "experiments/intervention-jsd-native-v1/test_metrics.py",
+      "source_sha256": "b76e8970805eb3512865b870dbb925d49de60748b68d5b9c82e5a8261db5c846",
+      "changes": []
+    },
+    {
+      "path": "experiments/intervention-jsd-native-v1/run-config.json",
+      "source_sha256": "233bf1d9be7a229008799fa36f7ab75ce84267e6c50fb6456091973488d171d4",
+      "changes": []
+    },
+    {
+      "path": "experiments/intervention-jsd-native-v1/result.json",
+      "source_sha256": "4fc5de1c947d2d86da6ec9e28eded6b79c591ef064f573d3f9845d6201838da8",
+      "changes": []
+    },
+    {
+      "path": "experiments/tokenizer-fidelity-v1/check.py",
+      "source_sha256": "54a5e32247fae71dd058aa80dc0365e0524d2a0af284f22ec6553a37c2c6148d",
+      "changes": []
+    },
+    {
+      "path": "experiments/tokenizer-fidelity-v1/local-result.json",
+      "source_sha256": "61aa587200d26df37013852db9ee3d4d1834428ff95dbf77f4cc763eb31a58cc",
+      "changes": []
+    },
+    {
+      "path": "experiments/tokenizer-fidelity-v1/host-result.json",
+      "source_sha256": "cea39f6c4a61d513de41df8de9307173b16e5bc9db36d4aad47f7e08e6749175",
+      "changes": []
+    },
+    {
+      "path": "experiments/tokenizer-fidelity-v1/requirements-frozen.txt",
+      "source_sha256": "88596b853f3e7bf674024edf9bfe2548b3062486e4c09021609528a5fc82bcec",
+      "changes": []
+    },
+    {
+      "path": "experiments/tokenizer-fidelity-v1/parity/torch_side.py",
+      "source_sha256": "47252ac3fa7aecd14c48443ed42e87653bc62c1a3db14645a8f76aa3491540d8",
+      "changes": [
+        "Remove private site-packages path; use the selected interpreter environment."
+      ]
+    },
+    {
+      "path": "experiments/tokenizer-fidelity-v1/parity/mlx_side.py",
+      "source_sha256": "deb470990f6c0aae4d5c793cd1d93a2fb272146fa4e1dc3d9f7afa0a8d11d454",
+      "changes": []
+    },
+    {
+      "path": "experiments/tokenizer-fidelity-v1/parity/compare.py",
+      "source_sha256": "81a8bd2bb61c9c527754d2640ff67ebedb89a417c6c193c533ff75c7f70f1a9f",
+      "changes": []
+    },
+    {
+      "path": "experiments/tokenizer-fidelity-v1/parity/result.json",
+      "source_sha256": "4db0d8834ed1ec94af04f4df599583afd1ca1c8b37a75046649bac56824c3ad4",
+      "changes": []
+    },
+    {
+      "path": "experiments/answer-agreement-pilot-v1/pilot.py",
+      "source_sha256": "1667cb272111ac8c88f86e984658fd3dc9a32c3daa19ae8b76fb025a8feb2b0b",
+      "changes": [
+        "Resolve tokenizer relative to the script instead of a private absolute path."
+      ]
+    },
+    {
+      "path": "experiments/answer-agreement-pilot-v1/audit.py",
+      "source_sha256": "edaecd763d4ea8374d0e82a3f77dc23a7683dafef0b2565aa332fbf349bc6f0a",
+      "changes": [
+        "Resolve tokenizer relative to the script instead of a private absolute path.",
+        "Replace private operations-preflight dependency with release-manifest verification; saved-token audit unchanged."
+      ]
+    },
+    {
+      "path": "experiments/answer-agreement-pilot-v1/config.json",
+      "source_sha256": "f5166c478514574c25d0d6aea8704cbfa23be6a6d5e959544d341c56e8f960d8",
+      "changes": [
+        "Remove private tokenizer absolute path; all settings and hashes unchanged."
+      ]
+    },
+    {
+      "path": "experiments/answer-agreement-pilot-v1/verified-result.json",
+      "source_sha256": "7fca12d21d7cc1bedb8faf72aaf53933894fef7058147de543b0244bd1709959",
+      "changes": []
+    },
+    {
+      "path": "experiments/answer-agreement-pilot-v1/samples-summary.json",
+      "source_sha256": "8aa01e708211f73457ecd32ac9b2341367c8a97671cf131b61566c0d675a5b31",
+      "changes": []
+    },
+    {
+      "path": "experiments/main-v2-intake-20260920/intake.py",
+      "source_sha256": "012a2ed5013fbf5aa82139b30523ad7562600f8e255f939c030446e235ab1fda",
+      "changes": []
+    },
+    {
+      "path": "experiments/main-v2-intake-20260920/split-plan.json",
+      "source_sha256": "fac15f799f551b06a7db5b12c42473a192209c1b6fc0f4c3ce32caa35d0e40c7",
+      "changes": []
+    },
+    {
+      "path": "experiments/main-v2-intake-20260920/data-discrepancy.json",
+      "source_sha256": "753c375ee6a5969841c263c48de19f5976f279cb4264e0fb25a4c50b64e890bb",
+      "changes": []
+    },
+    {
+      "path": "experiments/main-v2-intake-20260920/receipt.json",
+      "source_sha256": "da607d0e8f498f12a329e1df0c1ac8960d8f9e717d568ae3006f75a42cb44585",
+      "changes": []
+    },
+    {
+      "path": "experiments/batch-prevalence-rank-v1/runner.py",
+      "source_sha256": "68a31a81dc86f876a6e55cb962e4f1cad6c391b3942f50a1099f8c875ef6ca01",
+      "changes": []
+    },
+    {
+      "path": "experiments/batch-prevalence-rank-v1/config.json",
+      "source_sha256": "ae93bbf8b7e2330058435b3b40fa99b567696ab2e50dea79a2a5ebbd1a614946",
+      "changes": []
+    },
+    {
+      "path": "experiments/batch-prevalence-rank-v1/verified-result.json",
+      "source_sha256": "22c6739d36a34492893167a8cf8b650587f7671c4023ba27013bfa211c805ec2",
+      "changes": []
+    },
+    {
+      "path": "audit/convert_official_forest.py",
+      "source_sha256": "034d0fd6360add4d6faa253886229691f2ef064847648d470e94ea8375c06405",
+      "changes": []
+    },
+    {
+      "path": "candidates/uncertainty-safe-forest-v1/uncertainty_profile/safe_forest.py",
+      "source_sha256": "bd357213ab750cf46fc7a5765b6e971f3436be0adc449402e4b7fcde88a559bf",
+      "changes": []
+    },
+    {
+      "path": "experiments/batch-prevalence-rank-v1/experiment.json",
+      "source_sha256": "54dadca1c0a71a51c23527b0038a7fc7b84c16a67b978d72ef2a0652b41c6885",
+      "changes": [
+        "Remove private operations references, preserve frozen protocol."
+      ]
+    },
+    {
+      "path": "experiments/tokenizer-fidelity-v1/parity/plan.json",
+      "source_sha256": "9ceaef2103dc93f9dd59fc0db7f10440fd6e85a5c98a552e515a605d89669fe7",
+      "changes": []
+    }
+  ],
+  "unchanged_protocol": true,
+  "scientific_runs_performed_for_release": 0,
+  "excluded": [
+    "model weights",
+    "upstream starter-kit runtime",
+    "serialized upstream forest",
+    "problem texts",
+    "row-level labels",
+    "representation arrays",
+    "generated answers",
+    "holdout files",
+    "accounts",
+    "credentials",
+    "operations ledgers and receipts"
+  ]
+}

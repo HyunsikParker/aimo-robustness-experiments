@@ -1,0 +1,102 @@
+{
+  "development_ensemble_sha256": "46dee4570bf870198d52959bf960d03c03297bf2ac18b504f797fd051a4c005c",
+  "development_results_sha256": "dc26c91d51430d5701ac2087154b463bbfd317f288c8451cca837a9b365d6730",
+  "final": "unopened",
+  "frozen_candidate_count": 5,
+  "gate": {
+    "minimum_accuracy": 0.63,
+    "minimum_balanced_accuracy": 0.6
+  },
+  "open_final": false,
+  "results": [
+    {
+      "accuracy": 0.5925925925925926,
+      "balanced_accuracy": 0.6785714285714286,
+      "c": 0.001,
+      "candidate_id": "concatenate-19-20-c0.001",
+      "class_weight": "balanced",
+      "f1": 0.5217391304347826,
+      "false_negative": 1,
+      "false_positive": 10,
+      "layers": [
+        19,
+        20
+      ],
+      "mode": "concatenate",
+      "passes_gate": false,
+      "predicted_positive": 16
+    },
+    {
+      "accuracy": 0.5925925925925926,
+      "balanced_accuracy": 0.6785714285714286,
+      "c": 0.001,
+      "candidate_id": "single-layer19-none-c0.001",
+      "class_weight": null,
+      "f1": 0.5217391304347826,
+      "false_negative": 1,
+      "false_positive": 10,
+      "layers": [
+        19
+      ],
+      "mode": "single",
+      "passes_gate": false,
+      "predicted_positive": 16
+    },
+    {
+      "accuracy": 0.5925925925925926,
+      "balanced_accuracy": 0.6321428571428571,
+      "c": 0.01,
+      "candidate_id": "margin-trio-18-20-c0.01",
+      "class_weight": "balanced",
+      "f1": 0.47619047619047616,
+      "false_negative": 2,
+      "false_positive": 9,
+      "layers": [
+        18,
+        19,
+        20
+      ],
+      "mode": "mean-margin",
+      "passes_gate": false,
+      "predicted_positive": 14
+    },
+    {
+      "accuracy": 0.5925925925925926,
+      "balanced_accuracy": 0.6321428571428571,
+      "c": 0.01,
+      "candidate_id": "mean-features-18-19-20-c0.01",
+      "class_weight": "balanced",
+      "f1": 0.47619047619047616,
+      "false_negative": 2,
+      "false_positive": 9,
+      "layers": [
+        18,
+        19,
+        20
+      ],
+      "mode": "mean-features",
+      "passes_gate": false,
+      "predicted_positive": 14
+    },
+    {
+      "accuracy": 0.5925925925925926,
+      "balanced_accuracy": 0.6321428571428571,
+      "c": 0.01,
+      "candidate_id": "single-layer19-balanced-c0.01",
+      "class_weight": "balanced",
+      "f1": 0.47619047619047616,
+      "false_negative": 2,
+      "false_positive": 9,
+      "layers": [
+        19
+      ],
+      "mode": "single",
+      "passes_gate": false,
+      "predicted_positive": 14
+    }
+  ],
+  "schema_version": 1,
+  "selected_candidate": null,
+  "tuning_count": 27,
+  "tuning_positive": 7
+}

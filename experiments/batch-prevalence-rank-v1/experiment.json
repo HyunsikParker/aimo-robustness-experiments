@@ -1,0 +1,31 @@
+{
+  "id": "aimo-batch-prevalence-rank-v1-20260921",
+  "hypothesis": "The evaluation call exposes the whole model and reasoning-effort batch. Ranking fixed text-model probabilities within that batch and allocating the train-fold robust prevalence will improve current-development accuracy and balanced accuracy over both the same probabilities at a 0.5 threshold and the configuration-majority prior.",
+  "mechanism": "Seven fixed StratifiedGroupKFold folds over the 53 labelled current development rows in 27 problem groups, seed 20260921. In every fold, fit the unchanged current-only char_wb 3-5 TF-IDF plus model_id and reasoning_effort one-hot, class-balanced liblinear logistic regression with C=1.0. For each held-out model and reasoning-effort subgroup, rank its probabilities with input order as the deterministic tie-break. Estimate robust prevalence only from that fold's training rows for the same configuration using a fixed Beta(1,1) posterior mean; use the global train-fold posterior only when the configuration is absent. Predict the nearest integer number of positives, clamped to both classes only when the held-out subgroup has at least two rows. No feature, threshold, fold, prior, clamp, or tie-break tuning after measurement.",
+  "mechanism_id": "configuration-batch-prevalence-ranked-text-v1",
+  "lineage_id": "batch-context-prevalence-allocation",
+  "required_prize_delta": {
+    "value": 0.03,
+    "unit": "development_balanced_accuracy_gain_over_both_fixed_references_with_accuracy_floor_0.775"
+  },
+  "success_criteria": [
+    "All 53 development rows receive exactly one grouped out-of-fold prediction in seven fixed folds.",
+    "Accuracy is at least 0.775, balanced accuracy is at least 0.65, and at least five predictions belong to each class.",
+    "Accuracy exceeds both fixed references by at least 0.02 and balanced accuracy exceeds both by at least 0.03.",
+    "Runtime stays under 120 seconds at USD 0, with no holdout, old final data, model inference, platform submission, or max_drop inference feature used."
+  ],
+  "cheap_falsifier": "One deterministic grouped out-of-fold run on development-labelled.json, compared with the unchanged per-row 0.5-threshold current-only classifier and train-fold configuration-majority prior. Stop immediately if any gate fails.",
+  "untouched_holdout": "The eight groups listed as holdout_groups in experiments/main-v2-intake-20260920/split-manifest.json and all old 28 final groups remain unopened by the runner.",
+  "cost_cap": {
+    "compute": "USD 0; owned CPU only; no model inference, download, cloud, or platform run.",
+    "tokens": "0 model tokens.",
+    "wall_time": "120 seconds."
+  },
+  "stop_conditions": [
+    "Any input hash, row count, group count, fixed hyperparameter, or fold identity differs from the preregistration.",
+    "Accuracy below 0.775, balanced accuracy below 0.65, fewer than five predictions of either class, or insufficient improvement over either reference.",
+    "The runner attempts to read holdout rows, old final groups, max_drop as a feature, invoke a model, use network access, or access Codabench."
+  ],
+  "original_registration_sha256": "54dadca1c0a71a51c23527b0038a7fc7b84c16a67b978d72ef2a0652b41c6885",
+  "release_note": "Public protocol extract; private ledger references omitted. This is not a new experiment."
+}

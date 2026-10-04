@@ -1,0 +1,284 @@
+{
+  "gate_passed": true,
+  "checks": [
+    {
+      "name": "cross-runtime/full_0",
+      "max_absolute_error": 7.450580596923828e-08,
+      "normalized_error": 7.450580596923828e-08,
+      "passed": true
+    },
+    {
+      "name": "cross-runtime/matched_0",
+      "max_absolute_error": 7.450580596923828e-08,
+      "normalized_error": 7.450580596923828e-08,
+      "passed": true
+    },
+    {
+      "name": "cross-runtime/prefix_0_0",
+      "max_absolute_error": 4.470348358154297e-08,
+      "normalized_error": 4.470348358154297e-08,
+      "passed": true
+    },
+    {
+      "name": "cross-runtime/prefix_0_1",
+      "max_absolute_error": 5.960464477539063e-08,
+      "normalized_error": 5.960464477539063e-08,
+      "passed": true
+    },
+    {
+      "name": "cross-runtime/prefix_0_2",
+      "max_absolute_error": 4.470348358154297e-08,
+      "normalized_error": 4.470348358154297e-08,
+      "passed": true
+    },
+    {
+      "name": "cross-runtime/cached_0",
+      "max_absolute_error": 5.960464477539063e-08,
+      "normalized_error": 5.960464477539063e-08,
+      "passed": true
+    },
+    {
+      "name": "cross-runtime/full_1",
+      "max_absolute_error": 5.960464477539063e-08,
+      "normalized_error": 5.960464477539063e-08,
+      "passed": true
+    },
+    {
+      "name": "cross-runtime/matched_1",
+      "max_absolute_error": 5.960464477539063e-08,
+      "normalized_error": 5.960464477539063e-08,
+      "passed": true
+    },
+    {
+      "name": "cross-runtime/prefix_1_0",
+      "max_absolute_error": 4.470348358154297e-08,
+      "normalized_error": 4.470348358154297e-08,
+      "passed": true
+    },
+    {
+      "name": "cross-runtime/prefix_1_1",
+      "max_absolute_error": 4.470348358154297e-08,
+      "normalized_error": 4.470348358154297e-08,
+      "passed": true
+    },
+    {
+      "name": "cross-runtime/prefix_1_2",
+      "max_absolute_error": 5.21540641784668e-08,
+      "normalized_error": 5.21540641784668e-08,
+      "passed": true
+    },
+    {
+      "name": "cross-runtime/cached_1",
+      "max_absolute_error": 5.960464477539063e-08,
+      "normalized_error": 5.960464477539063e-08,
+      "passed": true
+    },
+    {
+      "name": "cross-runtime/full_2",
+      "max_absolute_error": 9.685754776000977e-08,
+      "normalized_error": 9.685754776000977e-08,
+      "passed": true
+    },
+    {
+      "name": "cross-runtime/matched_2",
+      "max_absolute_error": 9.685754776000977e-08,
+      "normalized_error": 9.685754776000977e-08,
+      "passed": true
+    },
+    {
+      "name": "cross-runtime/prefix_2_0",
+      "max_absolute_error": 2.9802322387695312e-08,
+      "normalized_error": 2.9802322387695312e-08,
+      "passed": true
+    },
+    {
+      "name": "cross-runtime/prefix_2_1",
+      "max_absolute_error": 5.21540641784668e-08,
+      "normalized_error": 5.21540641784668e-08,
+      "passed": true
+    },
+    {
+      "name": "cross-runtime/prefix_2_2",
+      "max_absolute_error": 9.685754776000977e-08,
+      "normalized_error": 9.685754776000977e-08,
+      "passed": true
+    },
+    {
+      "name": "cross-runtime/cached_2",
+      "max_absolute_error": 5.21540641784668e-08,
+      "normalized_error": 5.21540641784668e-08,
+      "passed": true
+    },
+    {
+      "name": "cross-runtime/full_3",
+      "max_absolute_error": 8.940696716308594e-08,
+      "normalized_error": 8.940696716308594e-08,
+      "passed": true
+    },
+    {
+      "name": "cross-runtime/matched_3",
+      "max_absolute_error": 8.940696716308594e-08,
+      "normalized_error": 8.940696716308594e-08,
+      "passed": true
+    },
+    {
+      "name": "cross-runtime/prefix_3_0",
+      "max_absolute_error": 5.960464477539063e-08,
+      "normalized_error": 5.960464477539063e-08,
+      "passed": true
+    },
+    {
+      "name": "cross-runtime/prefix_3_1",
+      "max_absolute_error": 5.21540641784668e-08,
+      "normalized_error": 5.21540641784668e-08,
+      "passed": true
+    },
+    {
+      "name": "cross-runtime/prefix_3_2",
+      "max_absolute_error": 5.960464477539063e-08,
+      "normalized_error": 5.960464477539063e-08,
+      "passed": true
+    },
+    {
+      "name": "cross-runtime/cached_3",
+      "max_absolute_error": 5.960464477539063e-08,
+      "normalized_error": 5.960464477539063e-08,
+      "passed": true
+    },
+    {
+      "name": "torch/matched-prefix-0",
+      "max_absolute_error": 4.470348358154297e-08,
+      "normalized_error": 4.470348358154297e-08,
+      "passed": true
+    },
+    {
+      "name": "torch/cache-0",
+      "max_absolute_error": 4.470348358154297e-08,
+      "normalized_error": 4.470348358154297e-08,
+      "passed": true
+    },
+    {
+      "name": "torch/matched-prefix-1",
+      "max_absolute_error": 4.470348358154297e-08,
+      "normalized_error": 4.470348358154297e-08,
+      "passed": true
+    },
+    {
+      "name": "torch/cache-1",
+      "max_absolute_error": 4.470348358154297e-08,
+      "normalized_error": 4.470348358154297e-08,
+      "passed": true
+    },
+    {
+      "name": "torch/matched-prefix-2",
+      "max_absolute_error": 1.4901161193847656e-08,
+      "normalized_error": 1.4901161193847656e-08,
+      "passed": true
+    },
+    {
+      "name": "torch/cache-2",
+      "max_absolute_error": 2.9802322387695312e-08,
+      "normalized_error": 2.9802322387695312e-08,
+      "passed": true
+    },
+    {
+      "name": "torch/matched-prefix-3",
+      "max_absolute_error": 7.450580596923828e-08,
+      "normalized_error": 7.450580596923828e-08,
+      "passed": true
+    },
+    {
+      "name": "torch/cache-3",
+      "max_absolute_error": 7.450580596923828e-08,
+      "normalized_error": 7.450580596923828e-08,
+      "passed": true
+    },
+    {
+      "name": "mlx/matched-prefix-0",
+      "max_absolute_error": 0.0,
+      "normalized_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "mlx/cache-0",
+      "max_absolute_error": 7.078051567077637e-08,
+      "normalized_error": 7.078051567077637e-08,
+      "passed": true
+    },
+    {
+      "name": "mlx/matched-prefix-1",
+      "max_absolute_error": 0.0,
+      "normalized_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "mlx/cache-1",
+      "max_absolute_error": 7.450580596923828e-08,
+      "normalized_error": 7.450580596923828e-08,
+      "passed": true
+    },
+    {
+      "name": "mlx/matched-prefix-2",
+      "max_absolute_error": 5.960464477539063e-08,
+      "normalized_error": 5.960464477539063e-08,
+      "passed": true
+    },
+    {
+      "name": "mlx/cache-2",
+      "max_absolute_error": 8.195638656616211e-08,
+      "normalized_error": 8.195638656616211e-08,
+      "passed": true
+    },
+    {
+      "name": "mlx/matched-prefix-3",
+      "max_absolute_error": 0.0,
+      "normalized_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "mlx/cache-3",
+      "max_absolute_error": 4.470348358154297e-08,
+      "normalized_error": 4.470348358154297e-08,
+      "passed": true
+    }
+  ],
+  "maximum_absolute_error": 9.685754776000977e-08,
+  "tolerance_declared_before_execution": true,
+  "max_absolute_tolerance": 0.0001,
+  "real_weights_or_competition_data_read": false,
+  "plan_sha256": "9ceaef2103dc93f9dd59fc0db7f10440fd6e85a5c98a552e515a605d89669fe7",
+  "torch": {
+    "transformers": "5.13.0",
+    "torch": "2.11.0",
+    "device": "cpu",
+    "dtype": "torch.float32",
+    "mlx_imported": false,
+    "parameter_count": 22752,
+    "rope_parameters_effective": {
+      "rope_type": "yarn",
+      "factor": 4.0,
+      "original_max_position_embeddings": 32768,
+      "attn_factor": 0.8782488562869419,
+      "rope_theta": 1000000
+    },
+    "rope_attention_scaling_effective": 1.138629436111989,
+    "weights_sha256": "13652c93a95efa45a04688b245d9a017a921092e16ee154ea5c3d1eb8b82e281",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0",
+    "dependency_provenance": "Successful run reused existing uv cache pure-Python SymPy1.14.0/mpmath1.3.0; subsequent source uses same versions installed in isolated venv, without cache fallback."
+  },
+  "mlx": {
+    "mlx_lm": "0.31.3",
+    "mlx": "0.31.2",
+    "import_mode": "Unmodified model modules; bypass eager package initializer to keep Torch absent",
+    "torch_imported": false,
+    "default_device": "Device(gpu, 0)",
+    "dtype": "mlx.core.float32",
+    "rope_mscale_effective": 1.138629436111989
+  },
+  "limits": [
+    "Torch CPU 2.11.0 is not host CUDA 2.12.1",
+    "tiny random FP32 only",
+    "no long-context or pretrained/FP16 equivalence claim"
+  ]
+}

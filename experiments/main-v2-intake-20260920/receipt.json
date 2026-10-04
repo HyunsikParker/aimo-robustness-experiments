@@ -1,0 +1,76 @@
+{
+  "dataset": "aimo-interp/train-main-v2",
+  "revision": "23791d9b120132087877b0459f953d5959fc8455",
+  "source_sha256": "bedfb551ea0f4d95d5e70e1df7cf61395ce2d36eeba2869aba6a90fc3c198824",
+  "total_rows": 82,
+  "total_problem_groups": 36,
+  "dataset_card_problem_count": 28,
+  "previously_exposed_groups": 0,
+  "old_final_groups_quarantined": 0,
+  "fresh_groups": 36,
+  "holdout_groups": 8,
+  "development_groups": 28,
+  "development_labelled_rows": 53,
+  "development_unlabelled_rows": 9,
+  "development_configuration_counts": [
+    {
+      "model_id": "Qwen/Qwen3.5-4B",
+      "reasoning_effort": "default",
+      "rows": 9,
+      "positive": 6,
+      "negative": 3
+    },
+    {
+      "model_id": "Skywork/Skywork-OR1-Math-7B",
+      "reasoning_effort": "default",
+      "rows": 2,
+      "positive": 2,
+      "negative": 0
+    },
+    {
+      "model_id": "allenai/Olmo-3-7B-Think",
+      "reasoning_effort": "default",
+      "rows": 7,
+      "positive": 6,
+      "negative": 1
+    },
+    {
+      "model_id": "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
+      "reasoning_effort": "default",
+      "rows": 6,
+      "positive": 4,
+      "negative": 2
+    },
+    {
+      "model_id": "openai/gpt-oss-120b",
+      "reasoning_effort": "high",
+      "rows": 12,
+      "positive": 11,
+      "negative": 1
+    },
+    {
+      "model_id": "openai/gpt-oss-120b",
+      "reasoning_effort": "low",
+      "rows": 6,
+      "positive": 4,
+      "negative": 2
+    },
+    {
+      "model_id": "openai/gpt-oss-120b",
+      "reasoning_effort": "medium",
+      "rows": 11,
+      "positive": 7,
+      "negative": 4
+    }
+  ],
+  "fresh_holdout_available": true,
+  "inference_calls": 0,
+  "fitted_models": 0,
+  "platform_submissions": 0,
+  "holdout_labels_reported": false,
+  "cost_usd": 0,
+  "limitations": [
+    "Exact and NFKC/whitespace-normalized duplicate detection only; mathematical equivalence not established.",
+    "Dataset and development audit is preparation, not model performance or a first-place claim."
+  ]
+}

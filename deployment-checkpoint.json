@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-10-04",
+  "phase_id": 30038,
+  "controls": [
+    {
+      "track": "Main",
+      "task_id": 36237,
+      "submission_id": 959561,
+      "status": "Finished",
+      "accuracy": 0.4761904762,
+      "coverage": 1.0,
+      "invalid_predictions": 0,
+      "artifact_sha256": "07dcb7ef79933501b3b6f47f49f29a70bc6e101c3128b990a61e82b7e02011e9"
+    },
+    {
+      "track": "Small",
+      "task_id": 36241,
+      "submission_id": 959564,
+      "status": "Finished",
+      "accuracy": 0.5,
+      "coverage": 1.0,
+      "invalid_predictions": 0,
+      "artifact_sha256": "4a3718e38f915a49ab1a74c5d99f45ee2814fb2845ebb1da3cb0daaa0b249e0a"
+    }
+  ],
+  "upstream_commit": "de794053debe75a711400696e66b60937cebbb1b",
+  "uncertainty_upload": {
+    "attempted_at": "2026-10-04T05:39:03Z",
+    "track": "Small",
+    "artifact_sha256": "95965eea1d189482e39d3705a2ff6596a7ad5b341ef44dd4826b91070c8445a7",
+    "error": "Submission upload failed. Server returned: 500 error",
+    "submission_id": null,
+    "worker_ran": false,
+    "accuracy": null,
+    "failure_class": "operational",
+    "quota_consumed": false,
+    "retry_authorized_by_this_release": false
+  }
+}

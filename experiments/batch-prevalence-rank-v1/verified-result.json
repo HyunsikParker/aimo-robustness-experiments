@@ -1,0 +1,64 @@
+{
+  "experiment_id": "aimo-batch-prevalence-rank-v1r2-20260921",
+  "run_id": "run-31b455a7708c6e2ea1b6df57",
+  "verified_at": "2026-09-21T01:57:30Z",
+  "stage": "completed",
+  "gate_passed": false,
+  "rows": 53,
+  "problem_groups": 27,
+  "metrics": {
+    "candidate": {
+      "accuracy": 0.7735849056603774,
+      "balanced_accuracy": 0.6942307692307692,
+      "predicted_negative": 13,
+      "predicted_positive": 40,
+      "confusion": {
+        "tn": 7,
+        "fp": 6,
+        "fn": 6,
+        "tp": 34
+      }
+    },
+    "per_row_threshold": {
+      "accuracy": 0.5094339622641509,
+      "balanced_accuracy": 0.5451923076923078,
+      "predicted_negative": 29,
+      "predicted_positive": 24,
+      "confusion": {
+        "tn": 8,
+        "fp": 5,
+        "fn": 21,
+        "tp": 19
+      }
+    },
+    "configuration_prior": {
+      "accuracy": 0.7547169811320755,
+      "balanced_accuracy": 0.5,
+      "predicted_negative": 0,
+      "predicted_positive": 53,
+      "confusion": {
+        "tn": 0,
+        "fp": 13,
+        "fn": 0,
+        "tp": 40
+      }
+    }
+  },
+  "accuracy_gain_over_best_reference": 0.018867924528301883,
+  "balanced_accuracy_gain_over_best_reference": 0.14903846153846145,
+  "gates": {
+    "accuracy": false,
+    "balanced_accuracy": true,
+    "nondegenerate": true,
+    "accuracy_gain": false,
+    "balanced_accuracy_gain": true,
+    "runtime": true
+  },
+  "runtime_seconds": 0.17876224999781698,
+  "holdout_groups_processed": 0,
+  "model_inference_calls": 0,
+  "platform_submissions": 0,
+  "cost_usd": 0,
+  "decision": "scientific_negative_stop_before_holdout",
+  "retry_prohibited": "Do not tune the fixed text features, prevalence prior, rounding, clamp, folds, classifier, thresholds, seed or gates on these 53 rows."
+}

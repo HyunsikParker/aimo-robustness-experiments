@@ -1,0 +1,12 @@
+{
+  "purpose": "Data-readiness audit only; no fitting, model inference, prediction, or leaderboard query.",
+  "dataset": "aimo-interp/train-main-v2",
+  "revision": "23791d9b120132087877b0459f953d5959fc8455",
+  "selection": "Group by NFKC and whitespace-normalized problem text; classify prior exposure before selecting holdout. Quarantine every old final group. Only groups absent from all prior development/tuning and final groups may enter the fresh holdout.",
+  "holdout_groups": 8,
+  "holdout_order": "Ascending sha256('aimo-main-v2-holdout-20260920:' + normalized_problem_hash), independent of labels, model and reasoning effort.",
+  "insufficient_fresh_groups": "Do not substitute exposed groups or resample. Mark fresh holdout unavailable and require a separately justified evaluation design.",
+  "labels": "No holdout problem text, label, max_drop, model-specific counts or predictions printed. Training summary may report aggregate label/configuration counts. Unlabelled rows excluded from supervised development.",
+  "immutability": "Existing files are never overwritten; preserve downloaded bytes and SHA256. Future runs must verify all recorded input hashes.",
+  "limits": "USD 0; at most 10 MiB download; no GPU or hosted inference; 60 second per HTTP request."
+}

@@ -1,0 +1,37 @@
+{
+  "model_id": "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
+  "model_revision": "6e8885a6ff5c1dc5201574c8fd700323f23c25fa",
+  "weights": [
+    {
+      "path": "model-00001-of-000002.safetensors",
+      "size": 8610202930,
+      "sha256": "7bb656406ecf282bcb44b87a93c0daa2c0ef32d1b335fdef65722e8c45d28fe3"
+    },
+    {
+      "path": "model-00002-of-000002.safetensors",
+      "size": 7771313866,
+      "sha256": "8c3631d826c04565ad79c026fa291cd142aa4b75c69cc717f9c513e2ed061b4e"
+    }
+  ],
+  "eos_token_ids": [
+    151645
+  ],
+  "tokenizer_path": "experiments/tokenizer-fidelity-v1/checkpoint",
+  "tokenizer_hashes": {
+    "tokenizer.json": "47d3a3ffb1ff38eb6a22f8a2d207306bfa3ea2499ff70df4baeaa559bf7453c7",
+    "tokenizer_config.json": "78872f2c1f0a5fb79d5872dbacb4c83991ef416315a25f34659e6a7c34108027",
+    "config.json": "1b1cbbba841c180e94192f7a25d2d97e21498fc1a0a0b4785942158af5eee183"
+  },
+  "inputs_sha256": "d6dd8dee8ecc90e5e4e335d94f4d3c083b44a6548823385eb59cf56cc9e11d40",
+  "holdout_groups": [
+    "064a299b34e6e00859e72b8c739c6d6cf929e9e7c30f2d3335227f4684031f5c",
+    "2ca839cfbfc60e29b4b761e290c8a294243b03efe16b78f0fdd26484c5dcfecb",
+    "60cdd62c418b49a7026f2761ba8c2abccc8e41b2d8004badcfc56413406223e5",
+    "653cc7a20fd728ab10be58829816300832509e62dda29b92fbec6a43d301445f",
+    "7968ea2f49d404309e79bbbd485d0c4c5f2dc1413bec889119a4cc6251f7d04b",
+    "7ee9d443789963a70fd30b4c9e23f3f773459bdef7479e92c5c73fe358ffb21a",
+    "c5c366181e8e3b8f071561812166b0424a5a32f3f8cb5c6df67026be76c696ca",
+    "e5391454ee1ae2dba04ebe27493b09e17d0681305dea39eab9ef7da22434c818"
+  ],
+  "prompt_suffix": "\nPlease reason step by step, and put your final answer within \\boxed{}."
+}

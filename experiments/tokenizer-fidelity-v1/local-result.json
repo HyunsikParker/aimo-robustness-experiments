@@ -1,0 +1,36 @@
+{
+  "environment": "local",
+  "packages": {
+    "transformers": "5.6.2",
+    "tokenizers": "0.22.2",
+    "huggingface-hub": "1.23.0"
+  },
+  "loaders": {
+    "auto": {
+      "class": "LlamaTokenizer",
+      "cases": 109,
+      "native_mismatch_original": 109,
+      "native_mismatch_intervention": 109,
+      "unchanged_interventions": 109,
+      "rendered_unchanged": 0,
+      "over_length": 0,
+      "max_tokens": 186,
+      "fidelity_and_manipulation_passed": false
+    },
+    "generic": {
+      "class": "TokenizersBackend",
+      "cases": 109,
+      "native_mismatch_original": 0,
+      "native_mismatch_intervention": 0,
+      "unchanged_interventions": 0,
+      "rendered_unchanged": 0,
+      "over_length": 0,
+      "max_tokens": 232,
+      "fidelity_and_manipulation_passed": true,
+      "prepared_sha256": "8ad29352ed3a86cc9c11d25c78d894d0cdfb6b837935c00bdd2327e5aca015b8"
+    }
+  },
+  "final_cases_processed": 0,
+  "weights_downloaded": false,
+  "model_inference": false
+}

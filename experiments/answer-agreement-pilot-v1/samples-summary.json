@@ -1,0 +1,56 @@
+[
+  {
+    "problem_group": "26a263ad81138dbfb41647a1e55af77c0b8ab02d4b051fc23722a7f0c403535d",
+    "sample": 0,
+    "seed": 20260920,
+    "tokens": 2048,
+    "elapsed_seconds": 384.4917292079772,
+    "termination": "token_cap",
+    "answer": null
+  },
+  {
+    "problem_group": "26a263ad81138dbfb41647a1e55af77c0b8ab02d4b051fc23722a7f0c403535d",
+    "sample": 1,
+    "seed": 20260921,
+    "tokens": 2048,
+    "elapsed_seconds": 357.6267012080061,
+    "termination": "token_cap",
+    "answer": null
+  },
+  {
+    "problem_group": "37172384f0dc9b88dbceac3662922c5613eb492b3bb0fbc53fc7a3d0a383eca7",
+    "sample": 0,
+    "seed": 20260922,
+    "tokens": 2048,
+    "elapsed_seconds": 346.76426233298844,
+    "termination": "token_cap",
+    "answer": null
+  },
+  {
+    "problem_group": "37172384f0dc9b88dbceac3662922c5613eb492b3bb0fbc53fc7a3d0a383eca7",
+    "sample": 1,
+    "seed": 20260923,
+    "tokens": 2048,
+    "elapsed_seconds": 345.7057625830057,
+    "termination": "token_cap",
+    "answer": null
+  },
+  {
+    "problem_group": "a59a836b9807d87b043a90da11ecf3b9ed97651dbf29f3476d0af981d7a4494e",
+    "sample": 0,
+    "seed": 20260924,
+    "tokens": 2048,
+    "elapsed_seconds": 343.6429812919814,
+    "termination": "token_cap",
+    "answer": null
+  },
+  {
+    "problem_group": "a59a836b9807d87b043a90da11ecf3b9ed97651dbf29f3476d0af981d7a4494e",
+    "sample": 1,
+    "seed": 20260925,
+    "tokens": 127,
+    "elapsed_seconds": 21.704951332998462,
+    "termination": "time_cap",
+    "answer": null
+  }
+]

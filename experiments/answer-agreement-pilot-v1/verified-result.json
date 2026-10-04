@@ -1,0 +1,30 @@
+{
+  "stage": "completed",
+  "screen": "feasibility_only",
+  "gate_passed": false,
+  "samples": 6,
+  "complete_answers": 0,
+  "generated_tokens": 10367,
+  "inference_seconds": 1800.0094036670052,
+  "total_seconds": 2271.9647073330125,
+  "peak_mlx_bytes": 16750550438,
+  "cost_usd": 0,
+  "holdout_cases_processed": 0,
+  "robustness_labels_loaded": false,
+  "robustness_accuracy_measured": false,
+  "platform_submissions": 0,
+  "failure_scope": "Fixed 2048-token/two-sample local feasibility gate failed; does not establish robustness prediction accuracy.",
+  "target_gpu_runtime_verified": false,
+  "original_result_sha256": "3c4fc6fd281a99459752f4ae82b8752bfab4b78a4478365fc1a95203914afc17",
+  "sample_hashes": {
+    "sample-0-0.json": "8f14b6c142d511abea95292c0a1c923af0efdaf31debe5e13abffc85a09172cf",
+    "sample-0-1.json": "b564928a2d7ceec776b30b6bb32ee627675ada63a107c9aa1ae9d6c82c77ea4b",
+    "sample-1-0.json": "7aadfbec64a204124d1db162618cd49b7efff92988ad18ea961ec4cd07181ba5",
+    "sample-1-1.json": "0276060b257bf0566bff488d05d04af7b498154879d04e84a1b8e8d43239dae1",
+    "sample-2-0.json": "8c2bfc40d7ef7b3098bde82f868e447f3a6c975e39ff4b056d176a0b95f07c86",
+    "sample-2-1.json": "b87bdf73701c0763e7eaa6a050b374b572cfe7ba77821a50a44bb6a03f3fa352"
+  },
+  "audit_corrections": [],
+  "source_and_token_checks_passed": true,
+  "accuracy_claim": "None; generation feasibility only"
+}

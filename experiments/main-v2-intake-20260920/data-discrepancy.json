@@ -1,0 +1,13 @@
+{
+  "at": "2026-09-20T07:24:01.827239+00:00",
+  "classification": "data_documentation_discrepancy",
+  "card_unique_problem_count": 28,
+  "actual_exact_unique_problem_count": 36,
+  "actual_normalized_unique_problem_count": 36,
+  "actual_rows": 82,
+  "source_sha256": "bedfb551ea0f4d95d5e70e1df7cf61395ce2d36eeba2869aba6a90fc3c198824",
+  "original_error": "AssertionError: assert len(groups) == 28",
+  "labels_used_for_correction": false,
+  "split_algorithm_changed": false,
+  "action": "Retain immutable raw bytes and fixed label-blind split; use measured count rather than card count."
+}

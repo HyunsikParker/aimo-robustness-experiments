@@ -1,0 +1,35 @@
+{
+  "seed": 20260921,
+  "folds": 7,
+  "development_path": "../main-v2-intake-20260920/development-labelled.json",
+  "development_sha256": "48dfee64c05075dfdedb94292e1a0050f425d7d31bb46abfaae2b1efe9b96e71",
+  "rows": 53,
+  "groups": 27,
+  "vectorizer": {
+    "analyzer": "char_wb",
+    "ngram_range": [3, 5],
+    "min_df": 2,
+    "sublinear_tf": true,
+    "max_features": 30000
+  },
+  "classifier": {
+    "solver": "liblinear",
+    "C": 1.0,
+    "class_weight": "balanced",
+    "max_iter": 1000
+  },
+  "prevalence_prior": {
+    "alpha": 1.0,
+    "beta": 1.0,
+    "rounding": "floor(x + 0.5)",
+    "clamp_both_classes_when_group_size_at_least": 2
+  },
+  "gate": {
+    "accuracy_min": 0.775,
+    "balanced_accuracy_min": 0.65,
+    "predicted_each_class_min": 5,
+    "accuracy_gain_over_each_reference_min": 0.02,
+    "balanced_accuracy_gain_over_each_reference_min": 0.03,
+    "runtime_seconds_max": 120
+  }
+}
